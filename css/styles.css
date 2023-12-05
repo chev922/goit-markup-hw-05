@@ -663,9 +663,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     top: 24px;
     right: 24px;
     padding: 0;
-    background-color: #e7e9fc;;
+    background-color: #e7e9fc;
     line-height: 0;
-      
     border: 1px solid rgba(0, 0, 0, 0.10);
     stroke: rgba(0, 0, 0, 0.1);
     border-radius: 50%;
@@ -679,19 +678,24 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-    fill: #ffffff;
+    fill: #FFFFFF;
     background-color: #404BBF;
     border: none;
 }
 
-.modal-close-btn-icon {
-    fill: #2E2F42;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+/* .modal-close-btn:hover svg,
+.modal-close-btn:focus svg {
+    fill: #ffffff;
+} */
 
-.modal-close-btn-icon:hover,
+/* .modal-close-btn-icon:hover,
 .modal-close-btn-icon:focus {
     fill: #FFFFFF;
+} */
+
+.modal-close-btn-icon {
+    /* fill: #2E2F42; */
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .rew-for-desc {
@@ -705,7 +709,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-field-wrapper {
-    margin-bottom: 16px
+    margin-bottom: 8px
 }
 
 .review-form-field-label{
